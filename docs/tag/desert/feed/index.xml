@@ -70,7 +70,7 @@
 
 
 
-<figure class="is-layout-flex wp-block-gallery-1 wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img decoding="async" width="980" height="659" src="/wp-content/uploads/2012/01/desert-road.jpg" alt="" data-id="700" class="wp-image-700" srcset="/wp-content/uploads/2012/01/desert-road.jpg 980w, /wp-content/uploads/2012/01/desert-road-300x202.jpg 300w, /wp-content/uploads/2012/01/desert-road-768x516.jpg 768w, /wp-content/uploads/2012/01/desert-road-600x403.jpg 600w" sizes="(max-width: 980px) 100vw, 980px" /></figure></li><li class="blocks-gallery-item"><figure><img data-id="964" class="wp-image-964"/></figure></li></ul></figure>
+<figure class="is-layout-flex wp-block-gallery-1 wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img decoding="async" src="/wp-content/uploads/2012/01/desert-road.jpg" alt="" data-id="700" class="wp-image-700"/></figure></li><li class="blocks-gallery-item"><figure><img data-id="964" class="wp-image-964"/></figure></li></ul></figure>
 
 
 
