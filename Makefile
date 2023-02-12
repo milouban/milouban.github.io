@@ -11,9 +11,8 @@ export DB_CONTAINER_NAME := mysql
 
 run:
 	docker-compose up -d
-	
 
-stop:
+stop: backup
 	docker-compose down
 
 backup:
