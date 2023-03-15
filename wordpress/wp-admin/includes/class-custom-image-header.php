@@ -1274,6 +1274,9 @@ endif;
 		$max_width = max( $max_width, $theme_width );
 
 		if ( $has_flex_height && ( ! $has_flex_width || $width > $max_width ) ) {
+			if ( !$width ) {
+				$width = 1;
+			}
 			$dst['dst_height'] = absint( $height * ( $max_width / $width ) );
 		} elseif ( $has_flex_height && $has_flex_width ) {
 			$dst['dst_height'] = $height;
