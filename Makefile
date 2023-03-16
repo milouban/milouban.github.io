@@ -17,8 +17,3 @@ stop: backup
 
 backup:
 	$(SCRIPTS_DIR)/backup.sh
-
-push:
-	./$(EXPORT_SCRIPT)
-	rm -rf $(SITE_DIR) || true
-	cp -a $(HTML_STATIC) $(SITE_DIR)
