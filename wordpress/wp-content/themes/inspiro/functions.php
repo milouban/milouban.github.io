@@ -108,3 +108,20 @@ require INSPIRO_THEME_DIR . 'inc/dynamic-css/hero-header-desc.php';
 require INSPIRO_THEME_DIR . 'inc/dynamic-css/hero-header-button.php';
 require INSPIRO_THEME_DIR . 'inc/dynamic-css/main-menu.php';
 require INSPIRO_THEME_DIR . 'inc/dynamic-css/mobile-menu.php';
+
+
+function codeastrology_meta_description() {
+    global $post;
+    if ( is_singular() ) {
+        echo '<meta name="description" content="' . "Milouban is a company with many years of experience in cotton linters and pulp" . '" />' . "\n";
+    }
+    if ( is_home() ) {
+        echo '<meta name="description" content="' . "Milouban is a company with many years of experience in cotton linters and pulp" . '" />' . "\n";
+    }
+    if ( is_category() ) {
+        echo '<meta name="description" content="' ."Milouban is a company with many years of experience in cotton linters and pulp" . '" />' . "\n";
+    }
+}
+add_action( 'wp_head', 'codeastrology_meta_description');
+
+
