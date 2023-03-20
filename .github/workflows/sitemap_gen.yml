@@ -36,4 +36,6 @@ jobs:
         commit-message: update sitemap.xml
         title: Update Sitemap
         body: Generate sitemap.xml
+        branch: UpdateSitemap2
+        delete-branch: true
         base: main
