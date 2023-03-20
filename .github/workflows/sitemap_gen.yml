@@ -37,8 +37,8 @@ jobs:
       uses: peter-evans/create-pull-request@v3
       with:
         title: "Automated sitemap update"
-        token: ${{ secrets.PAT }}
-        commit-message: Update report
-        committer: GitHub <noreply@github.com>
-        author: yoav
-        branch: AutoSitemap
+        token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+        # commit-message: Update report
+        # committer: GitHub <noreply@github.com>
+        # author: yoav
+        # branch: AutoSitemap
