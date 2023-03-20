@@ -22,4 +22,3 @@ publish:
 	rm -rf docs/*
 	cp -a html_static/* docs
 	cp CNAME docs
-	cp sitemap.xml docs
