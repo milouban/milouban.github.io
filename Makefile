@@ -19,5 +19,6 @@ backup:
 	$(SCRIPTS_DIR)/backup.sh
 
 publish:
+	rm -rf docs/*
 	cp -a html_static/* docs
 	cp CNAME docs

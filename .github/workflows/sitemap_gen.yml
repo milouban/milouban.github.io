@@ -3,6 +3,9 @@ name: Generate xml sitemap
 on:
   push:
     branches: [ main ]
+# on:
+#   pull_request:
+#     branches: [ main ]
 
 jobs:
   sitemap_job:
@@ -21,7 +24,7 @@ jobs:
       with:
         base-url-path: https://www.milouban.com
         path-to-root: docs
-        sitemap-path: docs/sitemap.xml
+        # sitemap-path: docs/sitemap.xml
 
     - name: Output stats
       run: |
