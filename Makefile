@@ -17,3 +17,7 @@ stop: backup
 
 backup:
 	$(SCRIPTS_DIR)/backup.sh
+
+publish:
+	cp -a html_static/* docs
+	cp CNAME docs

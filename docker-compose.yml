@@ -21,7 +21,7 @@ services:
       WORDPRESS_DB_NAME: exampledb
     volumes:
       - ./wordpress:/var/www/html
-      - ./docs:/var/www/docs
+      - ./html_static:/var/www/html_static
 
   db:
     container_name: mysql
