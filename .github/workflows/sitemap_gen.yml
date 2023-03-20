@@ -34,11 +34,10 @@ jobs:
         cat ./docs/sitemap.xml
 
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v3
-      with:
-        title: "Automated sitemap update"
-        # token: ${{ secrets.ADD_TO_PROJECT_PAT }}
-        # commit-message: Update report
-        # committer: GitHub <noreply@github.com>
-        # author: yoav
-        # branch: AutoSitemap
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: update sitemap.xml
+          title: Update Sitemap
+          body: Generate sitemap.xml
+          branch: UpdateSitemap
+          base: main
