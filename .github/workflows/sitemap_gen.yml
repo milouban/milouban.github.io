@@ -28,8 +28,6 @@ jobs:
         echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
         echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
-        echo "sitemap:"
-        cat ./docs/sitemap.xml
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
@@ -37,6 +35,6 @@ jobs:
         commit-message: update sitemap.xml
         title: Update Sitemap
         body: Generate sitemap.xml
-        branch: UpdateSitemap2
+        branch: UpdateSitemap5
         delete-branch: true
         base: main
