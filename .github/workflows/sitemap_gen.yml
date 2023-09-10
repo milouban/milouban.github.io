@@ -1,6 +1,7 @@
 name: Generate xml sitemap
 
 on:
+  workflow_dispatch:
   pull_request:
     branches: [ main ]
 
