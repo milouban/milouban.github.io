@@ -16,6 +16,13 @@ jobs:
       with:
         fetch-depth: 0 
 
+    - name: show fs
+      run: |
+        echo "Root:"
+        ls -la
+        echo "All:"
+        ls -Rla
+
     - name: Generate the sitemap
       id: sitemap
       uses: cicirello/generate-sitemap@v1
