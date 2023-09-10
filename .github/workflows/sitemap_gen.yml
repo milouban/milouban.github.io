@@ -21,6 +21,7 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://www.milouban.com
+        path-to-root: docs
 
     - name: Output stats
       run: |
@@ -36,6 +37,6 @@ jobs:
         commit-message: update sitemap.xml
         title: Update Sitemap
         body: Generate sitemap.xml
-        branch: UpdateSitemap2
+        branch: UpdateSitemap4
         delete-branch: true
         base: main
