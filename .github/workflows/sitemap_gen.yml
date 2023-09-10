@@ -21,7 +21,6 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://www.milouban.com
-        path-to-root: docs
 
     - name: Output stats
       run: |
